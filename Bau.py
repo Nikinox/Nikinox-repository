@@ -4,8 +4,7 @@ from random import randint
 print('Insert your name so BauGPT can chat with you')
 name = input()
 
-else:   
-    print("Hi " +name+"!Nice to meet you")
+print("Hi " +name+"!Nice to meet you")
 
 print("Chat in English")
 while True:
