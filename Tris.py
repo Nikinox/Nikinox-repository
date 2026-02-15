@@ -26,6 +26,6 @@ while True:
         break
 
     if spreadsheet==[11, 11, 11, 4, 5, 6, 7, 8, 9] or spreadsheet==[1, 2, 3, 11, 11, 11, 7, 8, 9] or spreadsheet==[1, 2, 3, 4, 5, 6, 11, 11, 11] or spreadsheet==[11, 2, 3, 11, 5, 6, 11, 8, 9] or spreadsheet==[1, 11, 3, 4, 11, 6, 7, 11, 9] or spreadsheet==[1, 2, 11, 4, 5, 11, 7, 8, 11] or spreadsheet==[11, 2, 3, 4, 11, 6, 7, 8, 11] or spreadsheet==[1, 2, 11, 4, 11, 6, 11, 8, 9]:#winning possible combos                                                                                                                   
-        
         print("O win")
         break
+
