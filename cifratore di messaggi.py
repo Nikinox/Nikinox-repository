@@ -1,13 +1,34 @@
 import string
+answer=""
+choose=""
+choose=""
+print("insert yes if you want to use this tool")
+answer=input().lower()
 
-print("inserisci numero di volte in cui cifrare il testo:")
-number_times = int(input())
+if answer=="no":
+    quit
+if answer=="yes":
+    while answer=="yes":
+        print("Insert enc for encrypting a message, insert dec for decrypting a message encrypted")
+        choose=input().lower()
+        if choose=="enc":
+            print('inserire testo:')
+            text = str(input())
+            alphabet = string.ascii_lowercase
+            shifted = alphabet[1:] + alphabet[0] #real:encrypted=a:b
+            key = str.maketrans(alphabet, shifted)
+            new_text = text.translate(key)
+            print(new_text)
+        if choose=="dec":
+            print('insert text:')
+            text = input()
+            alphabet = string.ascii_lowercase
+            shift = alphabet[-1] + alphabet[:-1]#encrypted:real=b:a
+            key = str.maketrans(alphabet, shift)
+            new_text = text.translate(key)
+            print(new_text)
+        print("Do you want to use again this tool? insert yes or no")
+        answer=input().lower()
+        if answer=="no":
+            break
 
-for i in range(number_times):
-    print('inserire testo:')
-    text = str(input())
-    alphabet = string.ascii_lowercase
-    shifted = alphabet[1:] + alphabet[0] #parte da lal 2a lettera della stringa fino alla fine e aggiunge alla fine la 1a posizione(x 1 spiegazione migliore vedi documento python completo sul pc
-    key = str.maketrans(alphabet, shifted)
-    new_text = text.translate(key)
-    print(new_text)
