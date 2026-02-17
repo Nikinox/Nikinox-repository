@@ -1,7 +1,9 @@
-I'm Nikinox. 
+I'm Nikinox.
 
-I'm a teenager and I like very much programming. 
+I'm a teenager who loves programming and building things.  
+I'm currently focused on creating as many projects as I can to learn, improve, and gradually move toward bigger and more complex systems.
 
-I'm working on building as many things as possible to learn as much as possible, hoping in the future the projects will get bigger and more complex.
+I mainly work with Python 3.8, and I often prototype small ideas in lightweight online environments before turning them into proper projects.  
+I use Notepad++ as my main code editor, and Google Colab when experimenting with small machine learning programs.
 
-I use Python 3.8 to run and create python programs, I use codeskulptor for quick tests in python before I save them, I use mycompiler to run and create programs in the other languages for now and i use notepad++ as my code editor and Google Colab whenever I test some little ML programs.
+My goal is simple: keep building, keep learning, and keep improving.
