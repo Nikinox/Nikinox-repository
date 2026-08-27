@@ -49,7 +49,6 @@ def defensive_combo():
 
     raw = input("Insert two types separated by space:\n").upper().split()
 
-    # Controllo input
     if len(raw) != 2:
         print("Error: you must insert exactly TWO types separated by space.")
         return
@@ -63,7 +62,6 @@ def defensive_combo():
     arr1 = arrays[t1]
     arr2 = arrays[t2]
 
-    # Moltiplicazione elemento per elemento
     combo = [a*b for a, b in zip(arr1, arr2)]
 
     print("Resulting defensive array:")
